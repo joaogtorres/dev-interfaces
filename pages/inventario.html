@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inventário - Apex Cars</title>
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/components.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div data-component-path="../components/header.html"></div>
+
+    <main>
+      <section class="page-title">
+        <div class="container">
+          <h1>Nosso Inventário</h1>
+          <p>Uma seleção de excelência automotiva esperando por você.</p>
+        </div>
+      </section>
+
+      <section class="section-dark">
+        <div class="container">
+          <div class="inventory-item">
+            <img
+              src="../images/cars/ferrari-sf90.webp"
+              alt="Ferrari Vermelha"
+            />
+            <div class="inventory-details">
+              <h2>Ferrari SF90 Stradale</h2>
+              <p>
+                O auge da tecnologia híbrida da Ferrari, combinando um motor V8
+                biturbo com três motores elétricos para entregar uma potência
+                impressionante de 1000 cv.
+              </p>
+              <p>
+                Com um interior focado no piloto, cada controle está ao alcance
+                das mãos, proporcionando uma conexão visceral entre homem e
+                máquina.
+              </p>
+              <div class="specs-lists">
+                <div>
+                  <h4 class="list-title">Motor & Potência</h4>
+                  <ul class="styled-list">
+                    <li>Motor: 4.0L V8 Biturbo + Elétricos</li>
+                    <li>Potência Combinada: 1000 cv</li>
+                    <li>Torque: 800 Nm</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 class="list-title">Performance</h4>
+                  <ul class="styled-list">
+                    <li>0-100 km/h: 2.5 segundos</li>
+                    <li>Velocidade Máxima: 340 km/h</li>
+                    <li>Tração: Integral (eAWD)</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 class="list-title">Dimensões</h4>
+                  <ul class="styled-list">
+                    <li>Peso: 1,570 kg</li>
+                    <li>Comprimento: 4,710 mm</li>
+                    <li>Largura: 1,972 mm</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-light">
+        <div class="container">
+          <div class="inventory-item reverse">
+            <img
+              src="../images/cars/lamborghini-aventador.webp"
+              alt="Lamborghini Roxa"
+            />
+            <div class="inventory-details">
+              <h2>Lamborghini Aventador SVJ</h2>
+              <p>
+                A expressão máxima do motor V12 naturalmente aspirado da
+                Lamborghini. O SVJ (Super Veloce Jota) é uma obra-prima da
+                engenharia.
+              </p>
+              <p>
+                Conduzir um SVJ é uma experiência sensorial única, dominada pelo
+                som icônico do V12 e uma resposta instantânea que conecta o
+                piloto ao asfalto.
+              </p>
+              <div class="specs-lists">
+                <div>
+                  <h4 class="list-title">Motor & Potência</h4>
+                  <ol class="styled-list-ordered">
+                    <li>Motor: 6.5L V12 Aspirado</li>
+                    <li>Potência: 770 cv</li>
+                    <li>Torque: 720 Nm</li>
+                  </ol>
+                </div>
+                <div>
+                  <h4 class="list-title">Performance</h4>
+                  <ol class="styled-list-ordered">
+                    <li>0-100 km/h: 2.8 segundos</li>
+                    <li>Velocidade Máxima: >350 km/h</li>
+                    <li>Tração: Integral</li>
+                  </ol>
+                </div>
+                <div>
+                  <h4 class="list-title">Recursos</h4>
+                  <ol class="styled-list-ordered">
+                    <li>Aerodinamica Attiva (ALA) 2.0</li>
+                    <li>Eixo traseiro direcional</li>
+                    <li>Estrutura em carbono</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-dark">
+        <div class="container text-center">
+          <h2>O Som da Besta - Aventador SVJ</h2>
+          <p>
+            Aumente o volume e aprecie a melodia inconfundível do motor V12.
+          </p>
+          <div class="audio-container">
+            <audio controls>
+              <source src="../videos/lamborghini.webm" type="audio/webm" />
+              Seu navegador não suporta áudio HTML5.
+            </audio>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div data-component-path="../components/footer.html"></div>
+
+    <script src="../main.js"></script>
+  </body>
+</html>
